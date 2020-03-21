@@ -14,3 +14,15 @@ capybara-*.html
 **.orig
 rerun.txt
 pickle-email-*.html
+
+.buildpath
+.byebug_history
+.metadata/
+.project
+Gemfile.lock
+config/
+db/
+files/
+public/
+test/
+
