@@ -12,31 +12,31 @@ Installation
 ====================
 Change to redmine/plugins folder and run:
 ```bash
-  git clone https://github.com/bdemirkir/sidebar_hide.git
+  git clone https://github.com/maxrossello/sidebar_hide.git
 ```
 
 Tested with...
 ====================
 
 Redmine:
- * =3.3.0
+ * 4.1.0
+ * see https://github.com/bizyman/sidebar_hide for earlier versions >= 3.3.0
 
-Themes:
- * Default themes
- * Alternate
- * Classic 
- * [Gitmike](https://github.com/makotokw/redmine-theme-gitmike)
- * [RedmineCRM Themes](http://redminecrm.com/projects/themes):
-   * A1
-   * Highrise
-   * Coffee
-   * RedmineCRM
-   * Circle
+Themes (barred ones not yet tested on 4.1.0):
+ * Default theme
+ * ~~Alternate~~
+ * ~~Classic~~ 
+ * ~~[Gitmike](https://github.com/makotokw/redmine-theme-gitmike)~~
+ * ~~[RedmineCRM Themes](http://redminecrm.com/projects/themes):~~
+   * ~~A1~~
+   * ~~Highrise~~
+   * ~~Coffee~~
+   * ~~RedmineCRM~~
+   * ~~Circle~~
 
 Browsers:
- * Google Chrome >=28
- * Firefox >=22
- * Internet Explorer 7-8-9-10
+ * Google Chrome 80.0
+ * Firefox 74.0
 
 License
 ====================
