@@ -18,6 +18,9 @@
   background-position: -7px 0;
 }
 
+@media screen and (min-width: 0px) and (max-width: 899px) {#hideSidebarButton{display: none;}}
+@media screen and (min-width: 900px) {#hideSidebarButton{display: inherit;}}
+
 #sidebarHandler {
   position: absolute;
   float: right;
