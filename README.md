@@ -6,7 +6,7 @@ Adds a tiny hide button for sidebar of Redmine on larger screens, not when the s
 Features
 ====================
 
- * Using cookie to remember status of the sidebar (hidden or not)
+ * Using localStorage to remember status of the sidebar (hidden or not) per each page
 
 Installation
 ====================
