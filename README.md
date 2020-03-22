@@ -1,7 +1,7 @@
 Hide Sidebar
 ====================
 
-Adds a tiny hide button for sidebar of Redmine
+Adds a tiny hide button for sidebar of Redmine on larger screens, not when the sidebar is displayed as part of dropdown menu on smaller screens.
 
 Features
 ====================

@@ -2,11 +2,9 @@
     <div id="sidebarHandler">
         <div id="hideSidebarButton" onclick="hideSideBar()"></div>
     </div>
-    <% if cookies["sidebar_hide"] == "hide" %>
-        <script>
-            $(function() {
-                hideSideBar();
-            });
-        </script>
-    <% end %>
+    <script>
+        $(function() {
+            prepareHideSideBar();
+        });
+    </script>
 <% end %>
