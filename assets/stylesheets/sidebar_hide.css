@@ -23,11 +23,8 @@
 
 #sidebarHandler {
   position: absolute;
-  float: right;
   top: 50px;
-  right: 0px;
   margin-top: 50px;
-  margin-right: 7px;
   z-index: 11;
 }
 
@@ -38,16 +35,59 @@
 
 #sidebar {
   z-index:12;
+  will-change: max-width;
+  transition: max-width .5s;
+  overflow-x: hidden;
+  padding-left: 20px;
+  padding-right: 0px;
 }
 
 #sidebar.sidebar_hidden {
+  overflow-x: hidden;
+  max-width: 0px !important;
+  padding-right: 0px !important;
+}
+
+#sidebar.sidebar_hidden ul.queries > li > a.icon-only {
   display: none;
 }
 
 body #content.sidebar_hidden {
-  width: auto;
   margin-right: 0;
 }
+
+#sidebar > form > :nth-child(n)
+{
+  min-width: 210px;
+}
+
+#sidebar > form > h3, #sidebar > form:first-child > h3, #sidebar > h3:first-child
+{
+  min-width: 210px;
+  padding: 10px 20px 0px 0px;
+}
+
+#sidebar ul:not(.watchers) li > a:not(.icon-only)
+{
+  padding-right: 20px;
+  padding-left: 3px;
+}
+
+#sidebar ul:not(.watchers) li > a:not(.icon-only).selected
+{
+  max-width: 87%;
+}
+
+#admin-menu li > a::before
+{
+  padding-left: 20px;
+}
+
+#admin-menu ul:not(.watchers) li > a:not(.icon-only)
+{
+  padding-left: 20px;
+}
+
 
 /***** Media print specific styles *****/
 @media print {
