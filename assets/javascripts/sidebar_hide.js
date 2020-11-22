@@ -62,12 +62,10 @@ function setSideBar(state)
     }
 }
 
-$(function() {
-    $('#context-menu').appendTo('#main');
-});
-
 
 function prepareHideSideBar() {
+
+    $('#context-menu').appendTo('#main');
 
     canUseLocalStorage = canUseLocalStorageCheck();
     

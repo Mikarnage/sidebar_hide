@@ -20,7 +20,7 @@ Tested with...
 ====================
 
 Redmine:
- * 4.1.0
+ * 4.1.1
  * see https://github.com/bizyman/sidebar_hide for earlier versions >= 3.3.0
 
 Themes:
