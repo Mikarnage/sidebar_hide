@@ -20,7 +20,7 @@ Tested with...
 ====================
 
 Redmine:
- * 4.1.1
+ * The plugin version corresponds to minimum version of Redmine required. Look at dedicated branch for each Redmine version.
  * see https://github.com/bizyman/sidebar_hide for earlier versions >= 3.3.0
 
 Themes:
@@ -28,16 +28,16 @@ Themes:
  * Alternate
  * Classic 
  * [Gitmike](https://github.com/makotokw/redmine-theme-gitmike)
-* [Alex skin](https://bitbucket.org/dkuk/redmine_alex_skin.git)
-* [Custom gitlab](git@github.com:unicornio8/nyss-gitlab-redmine-theme.git)
-* [Flat](git@github.com:labSupport/redmine-theme-flat.git)
-* [Flatly light](git@github.com:Nitrino/flatly_light_redmine.git)
-* [NYSS gitlab](git@github.com:nysenate/nyss-gitlab-redmine-theme.git)
-* [Pepper](git@github.com:koppen/redmine-pepper-theme.git)
-* [Pixel cookers](git://github.com/pixel-cookers/redmine-theme.git)
-* [Progressive](git@github.com:stgeneral/redmine-progressive-theme.git)
-* [PurpleMine2](git@github.com:mrliptontea/PurpleMine2.git)
-* [Taskman](git@github.com:eea/taskman.redmine.theme.git)
+ * [Alex skin](https://bitbucket.org/dkuk/redmine_alex_skin.git)
+ * [Custom gitlab](git@github.com:unicornio8/nyss-gitlab-redmine-theme.git)
+ * [Flat](git@github.com:labSupport/redmine-theme-flat.git)
+ * [Flatly light](git@github.com:Nitrino/flatly_light_redmine.git)
+ * [NYSS gitlab](git@github.com:nysenate/nyss-gitlab-redmine-theme.git)
+ * [Pepper](git@github.com:koppen/redmine-pepper-theme.git)
+ * [Pixel cookers](git://github.com/pixel-cookers/redmine-theme.git)
+ * [Progressive](git@github.com:stgeneral/redmine-progressive-theme.git)
+ * [PurpleMine2](git@github.com:mrliptontea/PurpleMine2.git)
+ * [Taskman](git@github.com:eea/taskman.redmine.theme.git)
 
 Browsers:
  * Google Chrome 84.0
