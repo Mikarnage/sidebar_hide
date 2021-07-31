@@ -9,8 +9,14 @@ Features
  * Using localStorage to remember status of the sidebar (hidden or not) per each page
  * collapsed sidebar leaves 20px which, when hovered, open up the sidebar automatically. It is thus possible to use the sidebar until hovering the extended area, then it will collapse again automatically on exit. Clicking the button again without hovering the sidebar makes it to remain back permanently open
 
-Installation
-====================
+# Version
+
+Tests are performed through [redmine_testsuites](https://github.com/maxrossello/redmine_testsuites) including all the plugins it supports.
+
+The plugin version corresponds to minimum version of Redmine required. Look at dedicated branch for each Redmine version.
+
+# Installation
+
 Change to redmine/plugins folder and run:
 ```bash
   git clone https://github.com/maxrossello/sidebar_hide.git
