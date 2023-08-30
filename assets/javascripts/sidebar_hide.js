@@ -87,12 +87,6 @@ function prepareHideSideBar() {
         $('#sidebar ul li a').css('padding-left', '6px !important');
     }
     
-    $('#sidebar').hover(function() {
-        setSideBarVisible();
-    }, function() {
-        setSideBar(storedState);
-    })
-
     // determine previously stored sidebar state for this page
     if(canUseLocalStorage) {
         // determine current controller/action pair and use them as storage key
